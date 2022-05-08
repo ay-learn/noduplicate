@@ -1,9 +1,7 @@
 
 #define MAX 200
-#define SOURCE "output.txt"
-#define DEJA   "deja.txt"
 
+#define SOURCE "/data/anghami/new"
+#define DEJA "/data/anghami/deja"
 
-void remplir(char T[][MAX],char s[]);
-
-
+void remplir(char T[][MAX], char s[]);

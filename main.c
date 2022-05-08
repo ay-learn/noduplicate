@@ -2,14 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-int main() {
+int main(int argv, char* argc[]) {
   char All[MAX][MAX];
   char Deja[MAX][MAX];
   char R[MAX][MAX];
 
-  remplir(All, SOURCE);
-  remplir(Deja, DEJA);
+  remplir(All, argc[1]);
+  remplir(Deja, argc[2]);
 
   int i, j, k, b;
 
